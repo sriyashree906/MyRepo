@@ -1,0 +1,309 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(back.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  s text-align: center;
+}
+
+header .banner-text {
+  width: 100%;
+}
+header .scroll{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-image: url(scroll1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.headline {
+  font-size: 500%;
+  font-family: cursive;
+}
+
+.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+
+.social li a {
+  color: #fff;
+}
+
+.social li a:hover {
+  color: #11ABB0;
+}
+
+header .scrolldown a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #fff;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  color: #fff;
+  border-radius: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+header .scrolldown a:hover {
+  color: #11ABB0;
+}
+
+#about {
+  background: #2B2B2B;
+  padding-top: 96px;
+padding-bottom:66px;
+  overflow: hidden;
+}
+
+#about .profile-pic {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  left: 70px;
+}
+#about .head{
+  font-size: 200%;
+  font-family: cursive;
+
+}
+.heading {
+  font-size: 200%;
+  font-family: cursive;
+  display:block;
+  text-align: center;
+  line-height:0.73;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.heading1 {
+  font-size: 150%;
+  font-family: cursive;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#left,
+#right {
+  border:none;
+  min-height: 450px;
+  color: white;
+}
+
+#left {
+  width: 30%;
+  float: left;
+}
+
+#right {
+  width: 69%;
+  border: 0px;
+  float: right;
+}
+
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalGrey;
+}
+
+#resume {
+  background: #fff;
+  padding-top: 5px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+#resume a, #resume a:visited {
+  color: #11ABB0;
+}
+
+#resume a:hover, #resume a:focus {
+  color: #313131;
+}
+
+.education, .work {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+#resume .header-col {
+  padding-top: 9px;
+}
+
+#resume .main-col {
+  padding-right: 10%;
+}
+
+#resume .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
+}
+
+.bars {
+  width: 60%;
+  float: left;
+  padding: 0;
+  text-align: left;
+}
+
+.bars .skills {
+  margin-top: 36px;
+  list-style: none;
+}
+
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+}
+
+.bars li em {
+  font: 15px 'opensans-bold', sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -36px;
+}
+
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+}
+
+.corejava {
+  width: 60%;
+  -moz-animation: corejava 2s ease;
+  -webkit-animation: corejava 2s ease;
+}
+.advjava {
+  width: 60%;
+  -moz-animation: advjava 2s ease;
+  -webkit-animation: advjava 2s ease;
+}
+.c {
+  width: 70%;
+  -moz-animation: c 2s ease;
+  -webkit-animation: c 2s ease;
+}
+
+.SQL {
+  width: 85%;
+  -moz-animation: sql 2s ease;
+  -webkit-animation: sql 2s ease;
+}
+.net {
+  width: 50%;
+  -moz-animation: net 2s ease;
+  -webkit-animation: net 2s ease;
+}
+
+.css {
+  width: 80%;
+  -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease;
+}
+
+.html5 {
+  width: 80%;
+  -moz-animation: html5 2s ease;
+  -webkit-animation: html5 2s ease;
+}
+
+.jquery {
+  width: 50%;
+  -moz-animation: jquery 2s ease;
+  -webkit-animation: jquery 2s ease;
+}
+
+table {
+  width: 100%;
+}
+footer {
+   padding-top: 30px;
+   margin-bottom: 48px;
+   color:gray;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
